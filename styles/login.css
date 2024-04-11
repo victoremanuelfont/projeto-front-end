@@ -1,0 +1,68 @@
+body{
+    background-color: var(--main-green);
+}
+
+body main{
+
+    background-color: var(--main-white);
+    width: 368px;
+    height: 368px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+
+}
+
+body main h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--gray-text);
+}
+
+body .form-input{
+    background-color: var(--mint);
+    border: none;
+    width: 242px;
+    height: 32px;
+    border-radius: 4px;
+    
+}
+
+body .form-input::placeholder{
+    color: var(--gray-text);
+    padding-left: 10px;
+
+    font-weight: 300;
+    font-size: 16px;
+}
+
+body button{
+    background-color: var(--secundary--green);
+    border: none;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 16px;
+    width: 178px;
+    height: 44px;
+    border-radius: 10px;
+
+}
+
+body main .logopoupe{
+    width: 107px;
+    height: 32px;
+
+
+
+}
+
+body main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
