@@ -14,18 +14,25 @@
 
 </head>
 <body> 
+    <section class = "form-section">
     <main>
-        <img class = "logopoupe"src = "assets/LOGO.svg "/>
+        <img class = "logo-poupe-mais" src = "assets/LOGO.svg "/>
         <h1>Faça seu login </h1>
-        <form>
-            <div class="logopoupemais">  
-            <input class="form-input" type = "text" placeholder = "User"/> 
-            <input class="form-input" type = "email" placeholder = "Email" /> 
+        <form id="login-form">
+            <div class="input-group">  
+            <input id="user" class="form-input" type="text" placeholder="User"/>
+            <input id="email" class="form-input" type="email" placeholder="Email"/>
             </div>
-            <button>ENTRAR<img src = "./assets/image 17 (Traced)icon.svg"/> </button>
+            <button>ENTRAR<img src = "./assets/Botão.png"/></button>
         </form>
-    </main>
-    <img src = "assets/Ilustração.svg"/>
+
+        <span id="error-message" class="error-message"></span>
+     </main>
+  </section>
+  <section class="ilustration-section">
     <img src = "assets/LOGO 2.svg">
+    </section>
+    
+    <script src="/js/login.js"></script>
 </body>
 </html>

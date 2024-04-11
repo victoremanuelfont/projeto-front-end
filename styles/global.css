@@ -65,9 +65,9 @@ quotes: none;
 
 }
 
-blockquote*:before*, blockquote*:after*,
+blockquote:before, blockquote:after,
 
-q*:before*, q*:after* {
+q:before, q:after {
 
 content: '';
 
@@ -84,10 +84,11 @@ border-spacing: 0;
 }
 :root {
     --main-green: #5BBA6F;
-    --main-white: #FFFFFF;
+    --white: #FFFFFF;
     --gray-text: #c4c4c4;
     --mint: #F2FFF5;
     --secondary--green: #3FA34D;
+    --red: #FF0000;
 }
 
 
