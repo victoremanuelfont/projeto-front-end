@@ -76,7 +76,7 @@ body .form-input::placeholder{
 }
 
 body main button{
-    background-color: var(--secundary--green);
+    background-color: var(--secondary-green);
     border: none;
     color: var(--white);
     font-weight: 600;
